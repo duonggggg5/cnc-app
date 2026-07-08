@@ -286,8 +286,8 @@ with col_dashboard:
         <p style="color:#64748b; margin-bottom: 15px;">Tóm tắt bộ thông số động lực học cắt gọt chính được phê duyệt đưa xuống xưởng:</p>
         
         <div class="grid-3" style="margin-bottom: 30px;">
-            <div class="card" style="border-top: 3px solid #16a34a;"><div class="print-kpi-lbl">Tốc độ trục chính (S)</div><div class="print-kpi-val">{sidebar_s:,.0f} RPM</div><div class="print-kpi-lbl">Chuẩn G97</div></div>
-            <div class="card" style="border-top: 3px solid #005fa3;"><div class="print-kpi-lbl">Tốc độ bàn máy (F)</div><div class="print-kpi-val">{sidebar_f:,.0f} mm/min</div><div class="print-kpi-lbl">Chuẩn G94</div></div>
+            <div class="card" style="border-top: 3px solid #16a34a;"><div class="print-kpi-lbl">Tốc độ trục chính (S)</div><div class="print-kpi-val">{S_speed:,.0f} RPM</div><div class="print-kpi-lbl">Chuẩn G97</div></div>
+            <div class="card" style="border-top: 3px solid #005fa3;"><div class="print-kpi-lbl">Tốc độ bàn máy (F)</div><div class="print-kpi-val">{F_feed:,.0f} mm/min</div><div class="print-kpi-lbl">Chuẩn G94</div></div>
             <div class="card" style="border-top: 3px solid #005fa3;"><div class="print-kpi-lbl">Vận tốc cắt thực tế (Vc)</div><div class="print-kpi-val">{base_vc:.1f} m/min</div><div class="print-kpi-lbl">Lý thuyết hãng</div></div>
             
             <div class="card" style="border-top: 3px solid #ea580c;"><div class="print-kpi-lbl">Công suất mạng tải</div><div class="print-kpi-val">{Net_Power_Required:.2f} kW</div><div class="print-kpi-lbl">Tải máy: {machine_load_pct:.1f}%</div></div>
